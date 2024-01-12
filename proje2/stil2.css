@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+.navbar{
+	background-color: #313157;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	padding: 32px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar h1{
+    color: #ffffff;
+	font-size: 18px;
+    font-weight:bold;
+    margin-right:50px;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+.menuDon {
+    font-size: 25px;
+    font-family: Arial Black;
+    color:#ffffff;
+    border:3px solid #ffffff;
+    border-radius:50px;
+    padding:5px;
+    margin-left:50px;
+    text-decoration: none;
+}
+
+.menuDon:hover {
+   	color: aqua;
+	transition: 1s;
+    border:3px solid aqua;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+.content {
+    width:100%;
+    height:auto;
+    background-image: linear-gradient(rgba(51, 51, 101, 0.59), rgba(20, 20, 51, 0.62)), url('images/background2.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+.proje1{
+    width:800px;
+    height:400px;
+    background-color:#1c1c53;
+    margin-left:auto;
+    margin-right:auto;
+}
+.proje1 div{
+    float:left;
+}
+.proje2{
+    width:800px;
+    height:400px;
+    background-color:#353590;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.proje2 div{
+    float:left;
+}
+.proje3{
+    width:800px;
+    height:400px;
+    background-color:#0a0a6b;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.proje3 div{
+    float:left;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+.solSutun{
+    width:400px;
+    height:400px;
+}
+.solSutun h2{
+    color:white;
+    padding-top:140px;
+    padding-left:80px;
+}
+.solSutun h3{
+    color:white;
+    padding-left:80px;
+}
+.solSutun h4{
+    color:white;
+    padding-left:080px;
+}
+.solSutun img{
+    width:35px;
+    height:35px;
+    padding-left:80px;
+    padding-top:10px;
+}
+.sagSutun{
+    width:400px;
+    height:400px;
+}
+.sagSutun img{
+    width:300px;
+    height:300px;
+    padding-left:40px;
+    padding-top:50px;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+.footer {
+    width:100%;
+    height:100px;
+    background-color:#313157;
+}
+
+.footer h1 {
+    text-align:center;
+    color:white;
+    font-size:12px;
+    padding-top:40px;
+}
